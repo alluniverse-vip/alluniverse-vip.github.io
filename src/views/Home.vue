@@ -32,7 +32,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="js">
 import { ref } from "vue";
 import navData from "../json/nav.json";
 </script>
