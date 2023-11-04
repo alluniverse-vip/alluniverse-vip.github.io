@@ -4,87 +4,98 @@
     "modules": [
       {
         "title": "IntelliJ IDEA",
-        "img": "https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/preview.png",
+        "site": "https://www.jetbrains.com/zh-cn/idea/",
+        "img": "https://resources.jetbrains.com/storage/logos/web/intellij-idea/intellij-idea.svg",
         "description": "IntelliJ IDEA 毫无疑问是软件开发者的首选 IDE。 It makes Java and Kotlin development a more productive and enjoyable experience."
       },
       {
         "title": "Git",
-        "img": "https://git-scm.com/images/logo@2x.png",
+        "site": "https://git-scm.com/",
+        "img": "https://skillicons.dev/icons?i=git",
         "description": "https://git-scm.com/"
       },
       {
         "title": "Sourcetree",
-        "img": "https://wac-cdn.atlassian.com/dam/jcr:51aa63f9-8e3…69/sourcetree_rgb_darkblue_atlassian_1200x630.png",
+        "site": "https://www.sourcetreeapp.com/",
+        "img": "https://api.iconify.design/logos:sourcetree.svg",
         "description": "A Git GUI that offers a visual representation of your repositories. Sourcetree is a free Git client for Windows and Mac."
       },
       {
         "title": "Visual Studio Code",
-        "img": "https://code.visualstudio.com/opengraphimg/opengraph-home.png",
+        "site": "https://code.visualstudio.com/",
+        "img": "https://skillicons.dev/icons?i=vscode&theme=light",
         "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows."
       },
       {
-        "title": "JookDB",
-        "img": "https://jookdb.cn/index_files/logo.png",
-        "description": "Free Multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases."
-      },
-      {
         "title": "Navicat",
+        "site": "https://www.navicat.com.cn/",
         "img": "https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/preview.png",
         "description": "强大的数据库管理和设计工具，支持 Win、macOS 和 linux。直观的 GUI 让用户简单地管理 MySQL、Redis、MariaDB、MongoDB、SQL Server、SQLite、Oracle 和 PostgreSQL 的数据库。支持 MySQL、Redis、MariaDB、MongoDB、SQL Server、SQLite、Oracle 和 PostgreSQL 的数据库管理"
       },
       {
         "title": "RedisInsight",
-        "img": "https://redis.com/wp-content/uploads/2022/10/RedisInsight-social-image-url-preview-1200x628-1.jpg",
+        "site": "https://redis.com/redis-enterprise/redis-insight/",
+        "img": "https://skillicons.dev/icons?i=redis&theme=light",
         "description": "RedisInsight provides an intuitive and efficient graphical interface for Redis, allowing you to interact with your databases and manage your data."
       },
       {
         "title": "Studio 3T",
-        "img": "https://studio3t.com/wp-content/uploads/2021/03/Home_Query.png",
+        "site": "https://studio3t.com/",
+        "img": "https://studio3t.com/wp-content/themes/s3t-2020/images/logo-pos.svg",
         "description": "Autocomplete queries in the mongo shell, drag and drop, or even query with SQL. Try Studio 3T, your ultimate GUI for MongoDB."
       },
       {
         "title": "Docker",
-        "img": "https://www.docker.com/wp-content/uploads/2023/06/meta-image-homepage-1110x580.png",
+        "site": "https://www.docker.com/",
+        "img": "https://skillicons.dev/icons?i=docker",
         "description": "Docker is a platform designed to help developers build, share, and run container applications. We handle the tedious setup, so you can focus on the code."
       },
       {
         "title": "Everything",
-        "img": "https://www.voidtools.com/voidtools9.png",
+        "site": "https://www.voidtools.com/zh-cn/",
+        "img": "https://www.voidtools.com/searchicon.png",
         "description": "https://www.voidtools.com/zh-cn/"
       },
       {
         "title": "Snipaste",
+        "site": "https://www.snipaste.com/",
         "img": "https://www.snipaste.com/img/logo.svg",
         "description": "Snip & Paste"
       },
       {
         "title": "JADX",
-        "img": "https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*MfA2QIGNXcEAAAAAAAAAAAAAARQnAQ",
+        "site": "https://github.com/skylot/jadx",
+        "img": "https://raw.githubusercontent.com/skylot/jadx/master/jadx-gui/src/main/resources/logos/jadx-logo.png",
         "description": "Dex to Java decompiler. Contribute to skylot/jadx development by creating an account on GitHub."
       },
       {
         "title": "Arthas",
+        "site": "https://arthas.aliyun.com/doc/",
         "img": "https://arthas.aliyun.com/images/arthas_mate_image.png",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas - alibaba/arthas: Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas"
       },
       {
         "title": "Postman",
-        "img": "https://www.postman.com/_ar-assets/images/favicon-1-16.png",
+        "site": "https://www.postman.com/",
+        "img": "https://skillicons.dev/icons?i=postman",
         "description": "https://www.postman.com/"
       },
       {
         "title": "Chrome",
+        "site": "https://www.google.cn/chrome/index.html",
         "img": "https://www.google.com/chrome/static/images/chrome-logo.svg",
         "description": "Google Chrome 徽标。Chrome 是一款快速、安全、免费的网络浏览器。"
       },
       {
         "title": "Tampermonkey",
-        "img": "https://www.tampermonkey.net/images/og_image.jpg",
+        "site": "https://www.tampermonkey.net/",
+        "img": "https://www.tampermonkey.net/images/ape.svg",
         "description": "Tampermonkey"
       },
       {
         "title": "ChatGPT Site",
-        "img": "https://opengraph.githubassets.com/79fb0750c1a72ea…e1143b98255abee3b8ffd0c6073a1ebf13ee/xx025/carrot",
+        "site": "https://github.com/xx025/carrot",
+        "img": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
         "description": "Free ChatGPT Site List 这儿为你准备了众多免费好用的ChatGPT镜像站点. Contribute to xx025/carrot development by creating an account on GitHub."
       }
     ]
@@ -94,26 +105,37 @@
     "modules": [
       {
         "title": "向日葵",
+        "site": "https://sunlogin.oray.com/",
         "img": "https://res.orayimg.com/sunlogin/1.0/img/a9f22f1.png",
         "description": "向日葵远程控制软件是一款拥有多年远控技术经验的远程控制软件，可远程控制手机，远程桌面连接，远程开机，远程管理等，并深入各行各业提供企业远程办公、企业IT运维、技术支持等企业远程解决方案。"
       },
       {
         "title": "有道翻译",
+        "site": "https://fanyi.youdao.com/index.html#/",
         "img": "https://ydlunacommon-cdn.nosdn.127.net/322e3486ea5a517c2cba3b76864dadba.png",
         "description": "有道翻译提供即时免费的中文、英语、日语、韩语、法语、德语、俄语、西班牙语、葡萄牙语、越南语、印尼语、意大利语、荷兰语、泰语全文翻译、网页翻译、文档翻译、PDF翻译、DOC翻译、PPT翻译、人工翻译、同传等服务。"
       },
       {
         "title": "搜狗输入法",
-        "img": "#",
+        "site": "https://shurufa.sogou.com/",
+        "img": "https://bizaladdin-image.baidu.com/0/pic/-1229916602_-1825718461_-444381518.jpg",
         "description": "搜狗拼音输入法官网下载，荣获多个国内软件大奖的搜狗拼音输入法是一款打字更准、词库更大、速度更快、外观漂亮、用了让您爱不释手的输入法，是您装机输入的好选择。享受输入，从搜狗开始！"
       },
       {
         "title": "MobaXterm",
-        "img": "https://mobaxterm.mobatek.net/screenshot.png",
+        "site": "https://mobaxterm.mobatek.net/",
+        "img": "https://mobaxterm.mobatek.net/img/moba/xterm_logo.png",
         "description": "The ultimate toolbox for remote computing - includes X server, enhanced SSH client and much more!"
       },
       {
+        "title": "JookDB",
+        "site": "https://jookdb.cn/",
+        "img": "https://jookdb.cn/index_files/logo.png",
+        "description": "Free Multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases."
+      },
+      {
         "title": "Chrome",
+        "site": "https://www.google.cn/chrome/index.html",
         "img": "https://www.google.com/chrome/static/images/chrome-logo.svg",
         "description": "Google Chrome 徽标。Chrome 是一款快速、安全、免费的网络浏览器。"
       }
@@ -124,78 +146,105 @@
     "modules": [
       {
         "title": "镜像站",
+        "site": "https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/",
         "img": "https://mirrors.tuna.tsinghua.edu.cn/static/img/logo-share.png",
         "description": "AOSP 使用帮助 | 镜像站使用帮助 | 清华大学开源软件镜像站，致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务，帮助用户更方便地获取开源软件。本镜像站由清华大学 TUNA 协会负责运行维护。"
       },
       {
         "title": "Maven repository",
-        "img": "#",
+        "site": "https://mvnrepository.com/",
+        "img": "https://skillicons.dev/icons?i=maven",
         "description": "https://mvnrepository.com/"
       },
       {
         "title": "Dockerhub",
-        "img": "#",
+        "site": "https://registry.hub.docker.com/",
+        "img": "https://skillicons.dev/icons?i=docker",
         "description": "Dockerhub"
       },
       {
         "title": "思维导图",
+        "site": "https://www.processon.com/",
         "img": "https://www.processon.com/public_login/logo_small.fc502117.svg",
         "description": "ProcessOn是一款专业在线作图工具和知识分享社区，提供AI生成思维导图流程图。支持思维导图、流程图、组织结构图、网络拓扑图、鱼骨图、UML图等多种图形，同时可实现人与人之间的实时协作和共享，提升团队工作效率。"
       },
       {
         "title": "调色板网站",
-        "img": "https://colors.muz.li/assets/images/ogimage.png",
+        "site": "https://colors.muz.li/",
+        "img": "https://colors.muz.li/assets/images/favicon.png",
         "description": "Search, discover, test and create beautiful color palettes for your projects"
       },
       {
         "title": "Pop!_OS",
+        "site": "https://pop.system76.com/",
         "img": "https://pop.system76.com/icon-512.png",
         "description": "Imagine an OS for the software developer, maker and computer science professional who uses their computer as a tool to discover and create. Welcome to Pop!_OS."
       },
       {
         "title": "Online ps",
-        "img": "https://cdn.sumo.app/images/paint/paint-ui.jpg",
+        "site": "https://paint.sumo.app/",
+        "img": "https://skillicons.dev/icons?i=ps",
         "description": "The best drawing experience in a browser"
       },
       {
         "title": "balenaEtcher",
+        "site": "https://etcher.balena.io/",
         "img": "https://etcher.balena.io/images/balena_logo_dark.svg",
         "description": "A cross-platform tool to flash OS images onto SD cards and "
       },
       {
         "title": "Let's Encrypt",
+        "site": "https://letsencrypt.org/zh-cn/",
         "img": "https://letsencrypt.org/images/le-logo-twitter-noalpha.png",
         "description": "Let’s Encrypt 是免费、开放和自动化的证书颁发机构。由非盈利组织互联网安全研究小组（ISRG）运营。"
       },
       {
         "title": "CloudFlare",
+        "site": "https://dash.cloudflare.com/",
         "img": "https://dash.cloudflare.com/favicon.ico",
         "description": "https://dash.cloudflare.com/"
       },
       {
         "title": "Nginx Proxy Manager",
+        "site": "https://nginxproxymanager.com/",
         "img": "https://nginxproxymanager.com/icon.png",
         "description": "Docker container and built in Web Application for managing Nginx proxy hosts with a simple, powerful interface, providing free SSL support via Let’s Encrypt"
       },
       {
         "title": "similarweb",
-        "img": "#",
-        "description": ""
+        "site": "https://www.similarweb.com/zh/",
+        "img": "https://qualified-production.s3.us-east-1.amazonaws.com/uploads/dfd8597dc5d21b2b8ff2854aab9914b1f2ca9aa69e38d19e4895f7989b6ad3dd.png",
+        "description": "多合一网站流量分析和竞争对搜情报，可供您比较网站流量和表现、分析策略并扩大市场份额！"
       },
       {
         "title": "机顶盒固件",
-        "img": "https://zndsimg.dangbei.net/template/veikei_dz_news_20121205_portal/images/icon-11.png",
+        "site": "https://www.znds.com/",
+        "img": "https://webpic.dangbei.net/data/znds/logo_ft.png",
         "description": "ZNDS智能电视网是中国知名的智能电视论坛,关注智能电视,智能电视盒,安卓电视,安卓TV,安卓机顶盒论坛,智能电视软件下载,Android智能电视机,智能电视游戏。安卓智能电视TV应用市场,TV OS Rom,刷机教程,安卓TV软件下载,Android电视软件商店,智能电视APP应用分享和交流。"
       },
       {
         "title": "jsDelivr",
+        "site": "https://www.jsdelivr.com/",
         "img": "https://www.jsdelivr.com/assets/defdff3a79fbfb4a29f75a4693137b3e6b24f1d5/img/og-jsdelivr.png",
         "description": "Optimized for JS and ESM delivery from npm and GitHub. Works with all web formats. Serving more than 150 billion requests per month."
       },
       {
         "title": "dev-sidecar",
-        "img": "#",
+        "site": "https://gitee.com/shun_dev/dev-sidecar",
+        "img": "https://skillicons.dev/icons?i=github",
         "description": "开发者边车，github打不开，github加速，git clone加速，git release下载加速，stackoverflow加速"
+      },
+      {
+        "title": "Skill Icons",
+        "site": "https://skillicons.dev/",
+        "img": "https://skillicons.dev/favicon.png",
+        "description": "Showcase the languages, frameworks, and tools you use on your GitHub or resumé with ease!"
+      },
+      {
+        "title": "Icones",
+        "site": "https://icones.js.org/",
+        "img": "https://icones.js.org/favicon.svg",
+        "description": "Icon Explorer with Instant searching, powered by Iconify"
       }
     ]
   }
