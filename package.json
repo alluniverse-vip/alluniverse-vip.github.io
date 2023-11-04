@@ -9,10 +9,12 @@
     "preview": "vite preview",
     "lint:eslint": "eslint \"src/**/*.{vue,ts,js}\" --fix",
     "lint:prettier": "prettier --write \"**/*.{js,ts,json,css,less,scss,vue,html,md}\"",
-    "lint:stylelint": "stylelint  \"**/*.{css,scss,vue,html}\" --fix"
+    "lint:stylelint": "stylelint  \"**/*.{css,scss,vue,html}\" --fix",
+    "build:prod": "vite build --mode production && vue-tsc --noEmit"
   },
   "dependencies": {
     "element-plus": "^2.4.2",
+    "terser": "^5.24.0",
     "vue": "^3.3.4",
     "vue-router": "^4.0.13"
   },
