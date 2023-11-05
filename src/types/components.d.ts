@@ -10,6 +10,7 @@ declare module 'vue' {
     CardTemplate: typeof import('./../components/CardTemplate.vue')['default']
     ElMenu: typeof import('element-plus/es')['ElMenu']
     ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
+    ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
     HelloWorld: typeof import('./../components/HelloWorld.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

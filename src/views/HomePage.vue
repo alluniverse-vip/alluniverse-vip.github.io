@@ -11,13 +11,28 @@
     >
       <el-menu-item index="0"> nav Site </el-menu-item>
       <div class="flex-grow" />
-      <el-menu-item index="1">Development tool</el-menu-item>
-      <el-menu-item index="2">Optional tool</el-menu-item>
-      <el-menu-item index="3">Popular website</el-menu-item>
+      <el-sub-menu index="1" v-if="!isMenuOpen">
+        <template #title>Workspace</template>
+        <el-menu-item
+          v-for="(item, index) in menuList.data"
+          :index="index"
+          :key="index"
+          @click="handleAnchor(item.herf)"
+          >{{ item.title }}
+        </el-menu-item>
+      </el-sub-menu>
+      <el-menu-item
+        v-else
+        v-for="(item, index) in menuList.data"
+        :index="index"
+        :key="index"
+        @click="handleAnchor(item.herf)"
+        >{{ item.title }}
+      </el-menu-item>
     </el-menu>
     <div class="nav-body">
       <div v-for="(item, index) in navData" :key="index">
-        <div class="nav-list-title">{{ item.title }}</div>
+        <div class="nav-list-title" :id="item.id">{{ item.title }}</div>
         <CardTemplate :width="240" :height="110" :data="item.modules">
           <template #default="{ row }">
             <div class="box-card" @click="openSite(row.site)">
@@ -39,6 +54,32 @@
 import navData from "@/json/nav.json";
 
 const activeIndex = ref("1");
+const menuList = reactive({
+  data: [
+    {
+      title: "Development tool",
+      herf: "#develop",
+    },
+    {
+      title: "Optional tool",
+      herf: "#optional",
+    },
+    {
+      title: "Popular website",
+      herf: "#popular",
+    },
+    {
+      title: "Meet",
+      herf: "#meet",
+    },
+    {
+      title: "Friendly link",
+      herf: "#link",
+    },
+  ],
+});
+let isMenuOpen = ref(true);
+
 const handleSelect = (key: string, keyPath: string[]) => {
   console.log(key, keyPath);
 };
@@ -49,6 +90,25 @@ const openSite = (site: string) => {
   }
   window.open(site);
 };
+
+const handleAnchor = (id: string) => {
+  const element = document.querySelector(id);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
+const handleResize = () => {
+  isMenuOpen.value = window.innerWidth >= 768;
+};
+
+onMounted(() => {
+  window.addEventListener("resize", handleResize);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("resize", handleResize);
+});
 </script>
 
 <style scoped lang="scss">

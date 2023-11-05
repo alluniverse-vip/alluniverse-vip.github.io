@@ -1,6 +1,7 @@
 [
   {
     "title": "Development tool",
+    "id": "develop",
     "modules": [
       {
         "title": "IntelliJ IDEA",
@@ -102,6 +103,7 @@
   },
   {
     "title": "Optional tool",
+    "id": "optional",
     "modules": [
       {
         "title": "向日葵",
@@ -143,6 +145,7 @@
   },
   {
     "title": "Popular website",
+    "id": "popular",
     "modules": [
       {
         "title": "镜像站",
@@ -250,6 +253,7 @@
   },
   {
     "title": "Meet",
+    "id": "meet",
     "modules": [
       {
         "title": "Stuvus Meet",
@@ -267,6 +271,7 @@
   },
   {
     "title": "Friendly link",
+    "id": "link",
     "modules": [
       {
         "title": "Open图谱可视化",
