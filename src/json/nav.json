@@ -29,7 +29,7 @@
       {
         "title": "Navicat",
         "site": "https://www.navicat.com.cn/",
-        "img": "https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/preview.png",
+        "img": "icons/navicat-logo.svg",
         "description": "强大的数据库管理和设计工具，支持 Win、macOS 和 linux。直观的 GUI 让用户简单地管理 MySQL、Redis、MariaDB、MongoDB、SQL Server、SQLite、Oracle 和 PostgreSQL 的数据库。支持 MySQL、Redis、MariaDB、MongoDB、SQL Server、SQLite、Oracle 和 PostgreSQL 的数据库管理"
       },
       {
@@ -41,7 +41,7 @@
       {
         "title": "Studio 3T",
         "site": "https://studio3t.com/",
-        "img": "https://studio3t.com/wp-content/themes/s3t-2020/images/logo-pos.svg",
+        "img": "/icons/studio3t-logo.svg",
         "description": "Autocomplete queries in the mongo shell, drag and drop, or even query with SQL. Try Studio 3T, your ultimate GUI for MongoDB."
       },
       {
@@ -53,7 +53,7 @@
       {
         "title": "Everything",
         "site": "https://www.voidtools.com/zh-cn/",
-        "img": "https://www.voidtools.com/searchicon.png",
+        "img": "/icons/everything-logo.jpg",
         "description": "https://www.voidtools.com/zh-cn/"
       },
       {
@@ -65,13 +65,13 @@
       {
         "title": "JADX",
         "site": "https://github.com/skylot/jadx",
-        "img": "https://raw.githubusercontent.com/skylot/jadx/master/jadx-gui/src/main/resources/logos/jadx-logo.png",
+        "img": "/icons/jadx-logo.png",
         "description": "Dex to Java decompiler. Contribute to skylot/jadx development by creating an account on GitHub."
       },
       {
         "title": "Arthas",
         "site": "https://arthas.aliyun.com/doc/",
-        "img": "https://arthas.aliyun.com/images/arthas_mate_image.png",
+        "img": "/icons/arthas-logo.png",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas - alibaba/arthas: Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas"
       },
       {
@@ -83,7 +83,7 @@
       {
         "title": "Chrome",
         "site": "https://www.google.cn/chrome/index.html",
-        "img": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+        "img": "/icons/chrome-logo.svg",
         "description": "Google Chrome 徽标。Chrome 是一款快速、安全、免费的网络浏览器。"
       },
       {
@@ -95,7 +95,7 @@
       {
         "title": "ChatGPT Site",
         "site": "https://github.com/xx025/carrot",
-        "img": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
+        "img": "/icons/openAI-logo.png",
         "description": "Free ChatGPT Site List 这儿为你准备了众多免费好用的ChatGPT镜像站点. Contribute to xx025/carrot development by creating an account on GitHub."
       }
     ]
@@ -106,7 +106,7 @@
       {
         "title": "向日葵",
         "site": "https://sunlogin.oray.com/",
-        "img": "https://res.orayimg.com/sunlogin/1.0/img/a9f22f1.png",
+        "img": "/icons/sunlogin-logo.png",
         "description": "向日葵远程控制软件是一款拥有多年远控技术经验的远程控制软件，可远程控制手机，远程桌面连接，远程开机，远程管理等，并深入各行各业提供企业远程办公、企业IT运维、技术支持等企业远程解决方案。"
       },
       {
@@ -136,7 +136,7 @@
       {
         "title": "Chrome",
         "site": "https://www.google.cn/chrome/index.html",
-        "img": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+        "img": "/icons/chrome-logo.svg",
         "description": "Google Chrome 徽标。Chrome 是一款快速、安全、免费的网络浏览器。"
       }
     ]
@@ -147,7 +147,7 @@
       {
         "title": "镜像站",
         "site": "https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/",
-        "img": "https://mirrors.tuna.tsinghua.edu.cn/static/img/logo-share.png",
+        "img": "/icons/tsinghua-logo.png",
         "description": "AOSP 使用帮助 | 镜像站使用帮助 | 清华大学开源软件镜像站，致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务，帮助用户更方便地获取开源软件。本镜像站由清华大学 TUNA 协会负责运行维护。"
       },
       {
@@ -189,7 +189,7 @@
       {
         "title": "balenaEtcher",
         "site": "https://etcher.balena.io/",
-        "img": "https://etcher.balena.io/images/balena_logo_dark.svg",
+        "img": "/icons/balena-logo.svg",
         "description": "A cross-platform tool to flash OS images onto SD cards and "
       },
       {
@@ -201,7 +201,7 @@
       {
         "title": "CloudFlare",
         "site": "https://dash.cloudflare.com/",
-        "img": "https://dash.cloudflare.com/favicon.ico",
+        "img": "/icons/cloudflare-logo.svg",
         "description": "https://dash.cloudflare.com/"
       },
       {
@@ -225,7 +225,7 @@
       {
         "title": "jsDelivr",
         "site": "https://www.jsdelivr.com/",
-        "img": "https://www.jsdelivr.com/assets/defdff3a79fbfb4a29f75a4693137b3e6b24f1d5/img/og-jsdelivr.png",
+        "img": "/icons/jsdelivr-logo.svg",
         "description": "Optimized for JS and ESM delivery from npm and GitHub. Works with all web formats. Serving more than 150 billion requests per month."
       },
       {
