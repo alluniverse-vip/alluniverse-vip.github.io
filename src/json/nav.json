@@ -247,5 +247,39 @@
         "description": "Icon Explorer with Instant searching, powered by Iconify"
       }
     ]
+  },
+  {
+    "title": "Meet",
+    "modules": [
+      {
+        "title": "Stuvus Meet",
+        "site": "https://meet.stuvus.uni-stuttgart.de/",
+        "img": "/icons/jitsi-meet-logo.webp",
+        "description": "Video meetings for everyone"
+      },
+      {
+        "title": "Jitsimeter",
+        "site": "https://ladatano.partidopirata.com.ar/jitsimeter/",
+        "img": "/icons/jitsi-meet-logo.webp",
+        "description": "Encuentra la instancia de Jitsi más rápida para tu videoconferencia"
+      }
+    ]
+  },
+  {
+    "title": "Friendly link",
+    "modules": [
+      {
+        "title": "Open图谱可视化",
+        "site": "https://alluniverse.vip/",
+        "img": "/favicon.svg",
+        "description": "热门小说、电影、动漫知识图谱可视化"
+      },
+      {
+        "title": "Jitsi Meet",
+        "site": "https://meet.alluniverse.vip/",
+        "img": "/icons/jitsi-meet-logo.webp",
+        "description": "Join a WebRTC video conference powered by the Jitsi Videobridge"
+      }
+    ]
   }
 ]
