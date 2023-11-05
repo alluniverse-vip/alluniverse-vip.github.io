@@ -2,31 +2,15 @@
   <div class="nav">
     <el-menu
       :default-active="activeIndex"
-      class="el-menu-demo"
       mode="horizontal"
-      :ellipsis="false"
+      :ellipsis="true"
       background-color="#2c698d"
       text-color="#ffffff"
       @select="handleSelect"
     >
       <el-menu-item index="0"> nav Site </el-menu-item>
-      <div class="flex-grow" />
-      <el-sub-menu index="1" v-if="!isMenuOpen">
-        <template #title>Workspace</template>
-        <el-menu-item
-          v-for="(item, index) in menuList.data"
-          :index="index"
-          :key="index"
-          @click="handleAnchor(item.herf)"
-          >{{ item.title }}
-        </el-menu-item>
-      </el-sub-menu>
-      <el-menu-item
-        v-else
-        v-for="(item, index) in menuList.data"
-        :index="index"
-        :key="index"
-        @click="handleAnchor(item.herf)"
+      <div class="nav-grow" />
+      <el-menu-item v-for="(item, index) in menuList.data" :index="index" :key="index" @click="handleAnchor(item.herf)"
         >{{ item.title }}
       </el-menu-item>
     </el-menu>
@@ -78,7 +62,6 @@ const menuList = reactive({
     },
   ],
 });
-let isMenuOpen = ref(true);
 
 const handleSelect = (key: string, keyPath: string[]) => {
   console.log(key, keyPath);
@@ -97,24 +80,16 @@ const handleAnchor = (id: string) => {
     element.scrollIntoView({ behavior: "smooth" });
   }
 };
-
-const handleResize = () => {
-  isMenuOpen.value = window.innerWidth >= 768;
-};
-
-onMounted(() => {
-  window.addEventListener("resize", handleResize);
-});
-
-onUnmounted(() => {
-  window.removeEventListener("resize", handleResize);
-});
 </script>
 
 <style scoped lang="scss">
 .nav {
   width: 100%;
   height: 100%;
+
+  &-grow {
+    margin-right: auto;
+  }
 
   &-body {
     height: calc(100vh - 60px);
