@@ -1,5 +1,23 @@
 [
   {
+    "title": "热门推荐",
+    "id": "hot",
+    "modules": [
+      {
+        "title": "ChatGPT Site",
+        "site": "https://github.com/xx025/carrot",
+        "img": "/icons/openAI-logo.png",
+        "description": "Free ChatGPT Site List 这儿为你准备了众多免费好用的ChatGPT镜像站点. Contribute to xx025/carrot development by creating an account on GitHub."
+      },
+      {
+        "title": "Tampermonkey",
+        "site": "https://www.tampermonkey.net/",
+        "img": "https://www.tampermonkey.net/images/ape.svg",
+        "description": "Tampermonkey"
+      }
+    ]
+  },
+  {
     "title": "Development tool",
     "id": "develop",
     "modules": [
@@ -86,18 +104,6 @@
         "site": "https://www.google.cn/chrome/index.html",
         "img": "/icons/chrome-logo.svg",
         "description": "Google Chrome 徽标。Chrome 是一款快速、安全、免费的网络浏览器。"
-      },
-      {
-        "title": "Tampermonkey",
-        "site": "https://www.tampermonkey.net/",
-        "img": "https://www.tampermonkey.net/images/ape.svg",
-        "description": "Tampermonkey"
-      },
-      {
-        "title": "ChatGPT Site",
-        "site": "https://github.com/xx025/carrot",
-        "img": "/icons/openAI-logo.png",
-        "description": "Free ChatGPT Site List 这儿为你准备了众多免费好用的ChatGPT镜像站点. Contribute to xx025/carrot development by creating an account on GitHub."
       }
     ]
   },

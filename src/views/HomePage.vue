@@ -2,13 +2,15 @@
   <div class="nav">
     <el-menu
       :default-active="activeIndex"
+      class="nav-menu"
       mode="horizontal"
       :ellipsis="true"
       background-color="#2c698d"
       text-color="#ffffff"
       @select="handleSelect"
     >
-      <el-menu-item index="0"> nav Site </el-menu-item>
+      <!-- <div class="text-white nav-menu-logo">探路者</div> -->
+      <div class="nav-menu-logo"></div>
       <div class="nav-grow" />
       <el-menu-item v-for="(item, index) in menuList.data" :index="index" :key="index" @click="handleAnchor(item.herf)"
         >{{ item.title }}
@@ -87,12 +89,24 @@ const handleAnchor = (id: string) => {
   width: 100%;
   height: 100%;
 
+  &-menu {
+    height: 65px;
+
+    &-logo {
+      height: 100%;
+      width: 140px;
+      background-repeat: no-repeat;
+      background-image: url("/logo.png");
+      background-position: 20px center;
+    }
+  }
+
   &-grow {
     margin-right: auto;
   }
 
   &-body {
-    height: calc(100vh - 60px);
+    height: calc(100vh - 65px);
     padding: 24px;
     overflow: auto;
   }
