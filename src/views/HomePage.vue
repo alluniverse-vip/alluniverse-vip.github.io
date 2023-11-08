@@ -43,24 +43,28 @@ const activeIndex = ref("1");
 const menuList = reactive({
   data: [
     {
-      title: "Development tool",
+      title: "热门推荐",
+      herf: "#hot",
+    },
+    {
+      title: "开发工具",
       herf: "#develop",
     },
     {
-      title: "Optional tool",
+      title: "Git精选",
+      herf: "#git",
+    },
+    {
+      title: "可选工具",
       herf: "#optional",
     },
     {
-      title: "Popular website",
+      title: "热门站点",
       herf: "#popular",
     },
     {
-      title: "Meet",
-      herf: "#meet",
-    },
-    {
-      title: "Friendly link",
-      herf: "#link",
+      title: "友情链接",
+      herf: "#friend",
     },
   ],
 });

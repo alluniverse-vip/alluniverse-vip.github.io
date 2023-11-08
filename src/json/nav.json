@@ -5,27 +5,39 @@
     "modules": [
       {
         "title": "ChatGPT Site",
-        "site": "https://github.com/xx025/carrot",
+        "site": "https://chat10.aiyunos.top/",
         "img": "/icons/openAI-logo.png",
         "description": "Free ChatGPT Site List 这儿为你准备了众多免费好用的ChatGPT镜像站点. Contribute to xx025/carrot development by creating an account on GitHub."
+      },
+      {
+        "title": "dev-sidecar",
+        "site": "https://gitee.com/shun_dev/dev-sidecar",
+        "img": "https://skillicons.dev/icons?i=github",
+        "description": "开发者边车，github打不开，github加速，git clone加速，git release下载加速，stackoverflow加速"
       },
       {
         "title": "Tampermonkey",
         "site": "https://www.tampermonkey.net/",
         "img": "https://www.tampermonkey.net/images/ape.svg",
         "description": "Tampermonkey"
+      },
+      {
+        "title": "Open图谱可视化",
+        "site": "https://alluniverse.vip/",
+        "img": "/favicon.svg",
+        "description": "热门小说、电影、动漫知识图谱可视化"
       }
     ]
   },
   {
-    "title": "Development tool",
-    "id": "develop",
+    "title": "装机必备",
+    "id": "must",
     "modules": [
       {
-        "title": "IntelliJ IDEA",
-        "site": "https://www.jetbrains.com/zh-cn/idea/",
-        "img": "https://resources.jetbrains.com/storage/logos/web/intellij-idea/intellij-idea.svg",
-        "description": "IntelliJ IDEA 毫无疑问是软件开发者的首选 IDE。 It makes Java and Kotlin development a more productive and enjoyable experience."
+        "title": "Chrome",
+        "site": "https://www.google.cn/chrome/index.html",
+        "img": "/icons/chrome-logo.svg",
+        "description": "Google Chrome 徽标。Chrome 是一款快速、安全、免费的网络浏览器。"
       },
       {
         "title": "Git",
@@ -40,10 +52,46 @@
         "description": "A Git GUI that offers a visual representation of your repositories. Sourcetree is a free Git client for Windows and Mac."
       },
       {
+        "title": "Everything",
+        "site": "https://www.voidtools.com/zh-cn/",
+        "img": "/icons/everything-logo.jpg",
+        "description": "https://www.voidtools.com/zh-cn/"
+      },
+      {
+        "title": "Snipaste",
+        "site": "https://www.snipaste.com/",
+        "img": "https://www.snipaste.com/img/logo.svg",
+        "description": "Snip & Paste"
+      },
+      {
+        "title": "Postman",
+        "site": "https://www.postman.com/",
+        "img": "https://skillicons.dev/icons?i=postman",
+        "description": "https://www.postman.com/"
+      }
+    ]
+  },
+  {
+    "title": "开发工具",
+    "id": "develop",
+    "modules": [
+      {
+        "title": "IntelliJ IDEA",
+        "site": "https://www.jetbrains.com/zh-cn/idea/",
+        "img": "https://resources.jetbrains.com/storage/logos/web/intellij-idea/intellij-idea.svg",
+        "description": "IntelliJ IDEA 毫无疑问是软件开发者的首选 IDE。 It makes Java and Kotlin development a more productive and enjoyable experience."
+      },
+      {
         "title": "Visual Studio Code",
         "site": "https://code.visualstudio.com/",
         "img": "https://skillicons.dev/icons?i=vscode&theme=light",
         "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows."
+      },
+      {
+        "title": "Docker",
+        "site": "https://www.docker.com/",
+        "img": "https://skillicons.dev/icons?i=docker",
+        "description": "Docker is a platform designed to help developers build, share, and run container applications. We handle the tedious setup, so you can focus on the code."
       },
       {
         "title": "Navicat",
@@ -63,24 +111,7 @@
         "img": "/icons/studio3t-logo.svg",
         "description": "Autocomplete queries in the mongo shell, drag and drop, or even query with SQL. Try Studio 3T, your ultimate GUI for MongoDB."
       },
-      {
-        "title": "Docker",
-        "site": "https://www.docker.com/",
-        "img": "https://skillicons.dev/icons?i=docker",
-        "description": "Docker is a platform designed to help developers build, share, and run container applications. We handle the tedious setup, so you can focus on the code."
-      },
-      {
-        "title": "Everything",
-        "site": "https://www.voidtools.com/zh-cn/",
-        "img": "/icons/everything-logo.jpg",
-        "description": "https://www.voidtools.com/zh-cn/"
-      },
-      {
-        "title": "Snipaste",
-        "site": "https://www.snipaste.com/",
-        "img": "https://www.snipaste.com/img/logo.svg",
-        "description": "Snip & Paste"
-      },
+
       {
         "title": "JADX",
         "site": "https://github.com/skylot/jadx",
@@ -92,23 +123,29 @@
         "site": "https://arthas.aliyun.com/doc/",
         "img": "/icons/arthas-logo.png",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas - alibaba/arthas: Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas"
-      },
-      {
-        "title": "Postman",
-        "site": "https://www.postman.com/",
-        "img": "https://skillicons.dev/icons?i=postman",
-        "description": "https://www.postman.com/"
-      },
-      {
-        "title": "Chrome",
-        "site": "https://www.google.cn/chrome/index.html",
-        "img": "/icons/chrome-logo.svg",
-        "description": "Google Chrome 徽标。Chrome 是一款快速、安全、免费的网络浏览器。"
       }
     ]
   },
   {
-    "title": "Optional tool",
+    "title": "Git精选",
+    "id": "git",
+    "modules": [
+      {
+        "title": "ChatGPT Site",
+        "site": "https://github.com/xx025/carrot",
+        "img": "https://skillicons.dev/icons?i=github",
+        "description": "Free ChatGPT Site List 这儿为你准备了众多免费好用的ChatGPT镜像站点. Contribute to xx025/carrot development by creating an account on GitHub."
+      },
+      {
+        "title": "dev-sidecar",
+        "site": "https://gitee.com/shun_dev/dev-sidecar",
+        "img": "https://skillicons.dev/icons?i=github",
+        "description": "开发者边车，github打不开，github加速，git clone加速，git release下载加速，stackoverflow加速"
+      }
+    ]
+  },
+  {
+    "title": "可选工具",
     "id": "optional",
     "modules": [
       {
@@ -140,17 +177,11 @@
         "site": "https://jookdb.cn/",
         "img": "https://jookdb.cn/index_files/logo.png",
         "description": "Free Multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases."
-      },
-      {
-        "title": "Chrome",
-        "site": "https://www.google.cn/chrome/index.html",
-        "img": "/icons/chrome-logo.svg",
-        "description": "Google Chrome 徽标。Chrome 是一款快速、安全、免费的网络浏览器。"
       }
     ]
   },
   {
-    "title": "Popular website",
+    "title": "热门站点",
     "id": "popular",
     "modules": [
       {
@@ -237,12 +268,7 @@
         "img": "/icons/jsdelivr-logo.svg",
         "description": "Optimized for JS and ESM delivery from npm and GitHub. Works with all web formats. Serving more than 150 billion requests per month."
       },
-      {
-        "title": "dev-sidecar",
-        "site": "https://gitee.com/shun_dev/dev-sidecar",
-        "img": "https://skillicons.dev/icons?i=github",
-        "description": "开发者边车，github打不开，github加速，git clone加速，git release下载加速，stackoverflow加速"
-      },
+
       {
         "title": "Skill Icons",
         "site": "https://skillicons.dev/",
@@ -258,7 +284,7 @@
     ]
   },
   {
-    "title": "Meet",
+    "title": "会议",
     "id": "meet",
     "modules": [
       {
@@ -276,8 +302,8 @@
     ]
   },
   {
-    "title": "Friendly link",
-    "id": "link",
+    "title": "友情链接",
+    "id": "friend",
     "modules": [
       {
         "title": "Open图谱可视化",
