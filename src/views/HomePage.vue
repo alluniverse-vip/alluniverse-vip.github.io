@@ -19,7 +19,7 @@
     <div class="nav-body">
       <div v-for="(item, index) in navData" :key="index">
         <div class="nav-list-title" :id="item.id">{{ item.title }}</div>
-        <CardTemplate :width="240" :height="110" :data="item.modules">
+        <CardTemplate :width="210" :height="100" :data="item.modules">
           <template #default="{ row }">
             <div class="box-card" @click="openSite(row.site)">
               <div class="nav-list-left flex flex-items-center">
@@ -99,6 +99,7 @@ const handleAnchor = (id: string) => {
     &-logo {
       height: 100%;
       width: 140px;
+      flex: 0 0 140px;
       background-repeat: no-repeat;
       background-image: url("/logo.png");
       background-position: 20px center;
@@ -123,7 +124,7 @@ const handleAnchor = (id: string) => {
     border-radius: 10px;
 
     &-title {
-      font-size: 20px;
+      font-size: 18px;
       margin: 24px 0;
       font-weight: bold;
     }
@@ -132,7 +133,7 @@ const handleAnchor = (id: string) => {
       margin-bottom: 12px;
 
       &-title {
-        font-size: 16px;
+        font-size: 14px;
         color: #272643;
       }
 

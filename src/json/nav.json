@@ -61,7 +61,7 @@
         "title": "Snipaste",
         "site": "https://www.snipaste.com/",
         "img": "https://www.snipaste.com/img/logo.svg",
-        "description": "📌图、截图神器"
+        "description": "📌贴图，截图神器"
       },
       {
         "title": "Postman",
@@ -116,13 +116,13 @@
         "title": "JADX",
         "site": "https://github.com/skylot/jadx",
         "img": "/icons/jadx-logo.png",
-        "description": "Java反编译工具"
+        "description": "Java反编译工具，支持Android"
       },
       {
         "title": "Arthas",
         "site": "https://arthas.aliyun.com/doc/",
         "img": "/icons/arthas-logo.png",
-        "description": "Java线上诊断利器"
+        "description": "Java线上诊断利器，无需 JVM 重启"
       }
     ]
   },
@@ -280,7 +280,6 @@
         "img": "https://www.emojiall.com/logo.png",
         "description": "Emoji表情、复制、排行"
       }
-      
     ]
   },
   {
