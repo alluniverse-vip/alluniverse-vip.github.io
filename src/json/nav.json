@@ -10,6 +10,12 @@
         "description": "免费ChatGPT使用，无需梯子"
       },
       {
+        "title": "IT-TOOLS",
+        "site": "https://it-tools.tech/",
+        "img": "/icons/it-tools-logo.png",
+        "description": "超级在线工具集合"
+      },
+      {
         "title": "dev-sidecar",
         "site": "https://gitee.com/shun_dev/dev-sidecar",
         "img": "/icons/gitee-logo.svg",
@@ -141,6 +147,12 @@
         "site": "https://gitee.com/shun_dev/dev-sidecar",
         "img": "/icons/gitee-logo.svg",
         "description": "GitHub、StackOverflow、npm加速"
+      },
+      {
+        "title": "dockerfile",
+        "site": "https://gitee.com/micro-universe/dockerfile",
+        "img": "/icons/gitee-logo.svg",
+        "description": "常见Dockerfile收录，一键部署"
       },
       {
         "title": "Skill Icons",
