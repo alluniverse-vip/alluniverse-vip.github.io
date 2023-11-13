@@ -1,20 +1,27 @@
-# Vue 3 + TypeScript + Vite
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">
+    探路者
+</h1>
+<h4 align="center">开发者导航 - Pro Developer网站导航</h4>
+<p align="center">
+    <a href="https://hello.alluniverse.vip">
+        <img src="https://img.shields.io/badge/%E6%8E%A2%E8%B7%AF%E8%80%85-hello.alluniverse.vip-blue">
+    </a>
+</p>
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+探路者是一款极简导航工具，致力于收录的每个站点都有其独特的作用。同时支持自定义[<u>导航</u>](./src/json/nav.json)，让用户快速实现个性化的导航站点。
 
-## Recommended IDE Setup
+## 特性概述
+- [x] 免费ChatGPT
+- [x] 装机必备
+- [x] 开发工具
+- [x] Git精选项目
+- [x] 热门站点
+- [ ] 工具破解
+- [ ] 一键安装
+- [ ] 经典教程
+- [x] 自托管
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support For `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-https://hao.uisdc.com/
+## 部署
+### On GitHub
+### On Cloudflare
+### On non-GitHub hosts
