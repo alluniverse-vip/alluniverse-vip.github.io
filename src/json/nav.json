@@ -28,6 +28,24 @@
         "description": "浏览器用户脚本扩展"
       },
       {
+        "title": "CloudFlare",
+        "site": "https://dash.cloudflare.com/",
+        "img": "/icons/cloudflare-logo.svg",
+        "description": "免费DNS、CDN、静态网页托管"
+      },
+      {
+        "title": "Nginx Proxy Manager",
+        "site": "https://nginxproxymanager.com/",
+        "img": "https://nginxproxymanager.com/icon.png",
+        "description": "Nginx可视化管理平台，免费SSL"
+      },
+      {
+        "title": "Let's Encrypt",
+        "site": "https://letsencrypt.org/zh-cn/",
+        "img": "https://letsencrypt.org/images/le-logo-twitter-noalpha.png",
+        "description": "免费的TLS证书颁发机构"
+      },
+      {
         "title": "Open图谱可视化",
         "site": "https://alluniverse.vip/",
         "img": "/favicon.svg",
@@ -245,42 +263,6 @@
         "description": "在线PS软件"
       },
       {
-        "title": "balenaEtcher",
-        "site": "https://etcher.balena.io/",
-        "img": "/icons/balena-logo.svg",
-        "description": "开源镜像烧录工具"
-      },
-      {
-        "title": "Let's Encrypt",
-        "site": "https://letsencrypt.org/zh-cn/",
-        "img": "https://letsencrypt.org/images/le-logo-twitter-noalpha.png",
-        "description": "免费的TLS证书颁发机构"
-      },
-      {
-        "title": "CloudFlare",
-        "site": "https://dash.cloudflare.com/",
-        "img": "/icons/cloudflare-logo.svg",
-        "description": "免费DNS、CDN、静态网页托管"
-      },
-      {
-        "title": "Nginx Proxy Manager",
-        "site": "https://nginxproxymanager.com/",
-        "img": "https://nginxproxymanager.com/icon.png",
-        "description": "Nginx可视化管理平台，免费SSL"
-      },
-      {
-        "title": "similarweb",
-        "site": "https://www.similarweb.com/zh/",
-        "img": "https://qualified-production.s3.us-east-1.amazonaws.com/uploads/dfd8597dc5d21b2b8ff2854aab9914b1f2ca9aa69e38d19e4895f7989b6ad3dd.png",
-        "description": "网站流量分析和竞争对情报搜索"
-      },
-      {
-        "title": "智能电视网",
-        "site": "https://www.znds.com/",
-        "img": "https://webpic.dangbei.net/data/znds/logo_ft.png",
-        "description": "机顶盒固件、玩机教程"
-      },
-      {
         "title": "jsDelivr",
         "site": "https://www.jsdelivr.com/",
         "img": "/icons/jsdelivr-logo.svg",
@@ -295,7 +277,7 @@
     ]
   },
   {
-    "title": "会议",
+    "title": "多元资源",
     "id": "meet",
     "modules": [
       {
@@ -309,6 +291,24 @@
         "site": "https://ladatano.partidopirata.com.ar/jitsimeter/",
         "img": "/icons/jitsi-meet-logo.webp",
         "description": "Jitsi会议实例发现大厅"
+      },
+      {
+        "title": "balenaEtcher",
+        "site": "https://etcher.balena.io/",
+        "img": "/icons/balena-logo.svg",
+        "description": "开源镜像烧录工具"
+      },
+      {
+        "title": "similarweb",
+        "site": "https://www.similarweb.com/zh/",
+        "img": "https://qualified-production.s3.us-east-1.amazonaws.com/uploads/dfd8597dc5d21b2b8ff2854aab9914b1f2ca9aa69e38d19e4895f7989b6ad3dd.png",
+        "description": "网站流量分析和竞争对情报搜索"
+      },
+      {
+        "title": "智能电视网",
+        "site": "https://www.znds.com/",
+        "img": "https://webpic.dangbei.net/data/znds/logo_ft.png",
+        "description": "机顶盒固件、玩机教程"
       }
     ]
   },

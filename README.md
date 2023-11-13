@@ -3,7 +3,7 @@
 </h1>
 <h4 align="center">开发者导航 - Pro Developer网站导航</h4>
 <p align="center">
-    <a href="https://hello.alluniverse.vip">
+    <a target="_blank" href="https://hello.alluniverse.vip">
         <img src="https://img.shields.io/badge/%E6%8E%A2%E8%B7%AF%E8%80%85-hello.alluniverse.vip-blue">
     </a>
 </p>
@@ -22,6 +22,22 @@
 - [x] 自托管
 
 ## 部署
-### On GitHub
-### On Cloudflare
-### On non-GitHub hosts
+### GitHub Pages
+
+1. [Fork](https://github.com/alluniverse-vip/alluniverse-vip.github.io/fork) 仓库
+2. 自定义[nav.json](./src/json/nav.json)
+3. 定义[个人令牌](./.github/workflows/deploy.yml#L24-L27)，参考[peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-set-personal-access-token-personal_token)
+4. 配置`GitHub Pages`，选择`Deploy from a branch`-`gh-pages`-`/ (root)`
+### Cloudflare Pages
+
+1. 创建账号，选择`Workers & Pages`
+2. `Create application`-`Connect to Git`，关联选择仓库
+3. Build command - `npm run build`，Build output directory - `dist`
+### web服务器
+```bash
+# 安装依赖
+npm ci
+# 构建
+npm run build
+# copy dist
+```
