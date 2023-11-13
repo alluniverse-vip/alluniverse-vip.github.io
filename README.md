@@ -11,6 +11,7 @@
 探路者是一款极简导航工具，致力于收录的每个站点都有其独特的作用。同时支持自定义[<u>导航</u>](./src/json/nav.json)，让用户快速实现个性化的导航站点。
 
 ## 特性概述
+
 - [x] 免费ChatGPT
 - [x] 装机必备
 - [x] 开发工具
@@ -28,12 +29,15 @@
 2. 自定义[nav.json](./src/json/nav.json)
 3. 定义[个人令牌](./.github/workflows/deploy.yml#L24-L27)，参考[peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-set-personal-access-token-personal_token)
 4. 配置`GitHub Pages`，选择`Deploy from a branch`-`gh-pages`-`/ (root)`
+   
 ### Cloudflare Pages
 
 1. 创建账号，选择`Workers & Pages`
 2. `Create application`-`Connect to Git`，关联选择仓库
 3. Build command - `npm run build`，Build output directory - `dist`
+
 ### web服务器
+
 ```bash
 # 安装依赖
 npm ci
