@@ -1,7 +1,6 @@
 <template>
   <div class="nav">
     <el-menu
-      :default-active="activeIndex"
       class="nav-menu"
       mode="horizontal"
       :ellipsis="true"
@@ -12,9 +11,10 @@
       <!-- <div class="text-white nav-menu-logo">探路者</div> -->
       <div class="nav-menu-logo"></div>
       <div class="nav-grow" />
-      <el-menu-item v-for="(item, index) in menuList.data" :index="index" :key="index" @click="handleAnchor(item.herf)"
+      <el-menu-item v-for="(item, index) in menuList" :index="item.herf" :key="index" @click="handleAnchor(item.herf)"
         >{{ item.title }}
       </el-menu-item>
+      <el-menu-item> github </el-menu-item>
     </el-menu>
     <div class="nav-body">
       <div v-for="(item, index) in navData" :key="index">
@@ -39,34 +39,15 @@
 <script setup lang="ts">
 import navData from "@/json/nav.json";
 
-const activeIndex = ref("1");
-const menuList = reactive({
-  data: [
-    {
-      title: "热门推荐",
-      herf: "#hot",
-    },
-    {
-      title: "开发工具",
-      herf: "#develop",
-    },
-    {
-      title: "Git精选",
-      herf: "#git",
-    },
-    {
-      title: "可选工具",
-      herf: "#optional",
-    },
-    {
-      title: "热门站点",
-      herf: "#popular",
-    },
-    {
-      title: "友情链接",
-      herf: "#friend",
-    },
-  ],
+const menuList = computed(() => {
+  return navData
+    .filter((nav) => nav.id)
+    .map(({ title, id }) => {
+      return {
+        herf: `#${id}`,
+        title,
+      };
+    });
 });
 
 const handleSelect = (key: string, keyPath: string[]) => {
@@ -112,7 +93,7 @@ const handleAnchor = (id: string) => {
 
   &-body {
     height: calc(100vh - 65px);
-    padding: 24px;
+    padding: 10px 20px;
     overflow: auto;
   }
 
@@ -125,7 +106,7 @@ const handleAnchor = (id: string) => {
 
     &-title {
       font-size: 18px;
-      margin: 24px 0;
+      margin: 10px 0;
       font-weight: bold;
     }
 

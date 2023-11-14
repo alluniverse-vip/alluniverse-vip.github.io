@@ -55,7 +55,6 @@
   },
   {
     "title": "装机必备",
-    "id": "must",
     "modules": [
       {
         "title": "Chrome",
@@ -284,7 +283,6 @@
   },
   {
     "title": "多元资源",
-    "id": "meet",
     "modules": [
       {
         "title": "Stuvus Meet",
