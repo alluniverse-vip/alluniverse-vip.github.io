@@ -221,6 +221,12 @@
     "id": "popular",
     "modules": [
       {
+        "title": "魔塔社区",
+        "site": "https://modelscope.cn/models",
+        "img": "/icons/modelscope-logo.svg",
+        "description": "开源的机器学习模型库共享平台"
+      },
+      {
         "title": "镜像站",
         "site": "https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/",
         "img": "/icons/tsinghua-logo.png",
