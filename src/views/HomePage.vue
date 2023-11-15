@@ -14,12 +14,14 @@
       <el-menu-item v-for="(item, index) in menuList" :index="item.herf" :key="index" @click="handleAnchor(item.herf)"
         >{{ item.title }}
       </el-menu-item>
-      <el-menu-item> github </el-menu-item>
+      <div @click="openGit" class="flex flex-items-center cursor-pointer pr-8px">
+        <img src="/icons/github.svg" />
+      </div>
     </el-menu>
     <div class="nav-body">
       <div v-for="(item, index) in navData" :key="index">
         <div class="nav-list-title" :id="item.id">{{ item.title }}</div>
-        <CardTemplate :width="210" :height="100" :data="item.modules">
+        <GridCard :data="item.modules" :minWidth="210">
           <template #default="{ row }">
             <div class="box-card" @click="openSite(row.site)">
               <div class="nav-list-left flex flex-items-center">
@@ -31,7 +33,7 @@
               <div class="nav-list-content" :title="row.description">{{ row.description }}</div>
             </div>
           </template>
-        </CardTemplate>
+        </GridCard>
       </div>
     </div>
   </div>
@@ -66,6 +68,10 @@ const handleAnchor = (id: string) => {
   if (element) {
     element.scrollIntoView({ behavior: "smooth" });
   }
+};
+
+const openGit = () => {
+  window.open("https://github.com/alluniverse-vip/alluniverse-vip.github.io");
 };
 </script>
 
@@ -106,7 +112,7 @@ const handleAnchor = (id: string) => {
 
     &-title {
       font-size: 18px;
-      margin: 10px 0;
+      margin: 20px 0;
       font-weight: bold;
     }
 
@@ -137,7 +143,13 @@ const handleAnchor = (id: string) => {
 
 .box-card {
   padding: 15px;
+  width: 210px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 10px;
   &:hover {
+    box-shadow: 4px 4px 10px 2px #2c698d;
+    cursor: pointer;
     .nav-list-left-title {
       // color: #272643;
       text-decoration: underline;
