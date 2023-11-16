@@ -4,9 +4,13 @@ import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 export const constantRoutes: RouteRecordRaw[] = [
   {
     path: "/",
-    name: "/home",
+    name: "Home",
     component: () => import("@/views/HomePage.vue"),
     meta: { hidden: true },
+  },
+  {
+    path: "/:pathMatch(.*)",
+    redirect: "/",
   },
 ];
 
