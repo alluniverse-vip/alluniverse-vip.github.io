@@ -10,6 +10,12 @@
         "description": "免费ChatGPT使用，无需梯子"
       },
       {
+        "title": "SMS-Activate",
+        "site": "https://sms-activate.org/cn",
+        "img": "/icons/sms-logo.png",
+        "description": "在线接收短信的虚拟号码服务"
+      },
+      {
         "title": "IT-TOOLS",
         "site": "https://it-tools.tech/",
         "img": "/icons/it-tools-logo.png",
