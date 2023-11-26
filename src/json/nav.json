@@ -11,7 +11,7 @@
       },
       {
         "title": "SMS-Activate",
-        "site": "https://sms-activate.org/cn",
+        "site": "https://sms-activate.org/?ref=8894743",
         "img": "/icons/sms-logo.png",
         "description": "在线接收短信的虚拟号码服务"
       },
@@ -212,6 +212,12 @@
         "site": "https://mobaxterm.mobatek.net/",
         "img": "https://mobaxterm.mobatek.net/img/moba/xterm_logo.png",
         "description": "远程终端登录利器"
+      },
+      {
+        "title": "IDM",
+        "site": "https://www.internetdownloadmanager.com/",
+        "img": "/icons/idm-logo.png",
+        "description": "网络下载神器，多线程下载，下载速度提高5倍"
       },
       {
         "title": "JookDB",
