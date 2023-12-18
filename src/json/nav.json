@@ -87,6 +87,12 @@
         "description": "基于文件名快速检索定位工具"
       },
       {
+        "title": "Geek Uninstaller",
+        "site": "https://geekuninstaller.com/",
+        "img": "/icons/geek-logo.png",
+        "description": "软件卸载工具"
+      },
+      {
         "title": "Snipaste",
         "site": "https://www.snipaste.com/",
         "img": "https://www.snipaste.com/img/logo.svg",
@@ -140,7 +146,6 @@
         "img": "/icons/studio3t-logo.svg",
         "description": "MongoDB客户端GUI工具"
       },
-
       {
         "title": "JADX",
         "site": "https://github.com/skylot/jadx",
@@ -164,6 +169,12 @@
         "site": "https://github.com/xx025/carrot",
         "img": "https://skillicons.dev/icons?i=github&theme=light",
         "description": "免费ChatGPT镜像站点清单"
+      },
+      {
+        "title": "Awesome-Selfhosted",
+        "site": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+        "img": "https://skillicons.dev/icons?i=github&theme=light",
+        "description": "自托管软件服务和应用程序清单"
       },
       {
         "title": "dev-sidecar",
@@ -238,6 +249,12 @@
         "description": "开源的机器学习模型库共享平台"
       },
       {
+        "title": "Hugging Face",
+        "site": "https://huggingface.co",
+        "img": "/icons/huggingface-logo.svg",
+        "description": "开源人工智能模型社区"
+      },
+      {
         "title": "镜像站",
         "site": "https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/",
         "img": "/icons/tsinghua-logo.png",
@@ -296,6 +313,18 @@
   {
     "title": "多元资源",
     "modules": [
+      {
+        "title": "可可爱爱TV",
+        "site": "https://keai.cm/",
+        "img": "/icons/keai-logo.png",
+        "description": "全网VIP影片解析搜索库"
+      },
+      {
+        "title": "4K Downloader",
+        "site": "https://youtube4kdownloader.com/zh99/",
+        "img": "/favicon.png",
+        "description": "视频下载，支持YouTube、Tiktok等"
+      },
       {
         "title": "Stuvus Meet",
         "site": "https://meet.stuvus.uni-stuttgart.de/",
