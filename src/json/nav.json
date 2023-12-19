@@ -233,7 +233,7 @@
       {
         "title": "JookDB",
         "site": "https://jookdb.cn/",
-        "img": "https://jookdb.cn/index_files/logo.png",
+        "img": "/icons/jookdb-logo.png",
         "description": "免费多平台数据库管理工具"
       }
     ]
@@ -322,8 +322,8 @@
       {
         "title": "4K Downloader",
         "site": "https://youtube4kdownloader.com/zh99/",
-        "img": "/favicon.png",
-        "description": "视频下载，支持YouTube、Tiktok等"
+        "img": "/icons/4kdownloader-logo.png",
+        "description": "在线视频下载，支持YouTube、Tiktok等"
       },
       {
         "title": "Stuvus Meet",
