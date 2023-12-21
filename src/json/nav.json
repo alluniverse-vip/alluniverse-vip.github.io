@@ -235,6 +235,12 @@
         "site": "https://jookdb.cn/",
         "img": "/icons/jookdb-logo.png",
         "description": "免费多平台数据库管理工具"
+      },
+      {
+        "title": "Speedtest",
+        "site": "https://www.speedtest.net/",
+        "img": "/icons/speedtest-logo.svg",
+        "description": "网速测试"
       }
     ]
   },
