@@ -30,7 +30,7 @@
       {
         "title": "Tampermonkey",
         "site": "https://docs.alluniverse.vip/docs/tampermonkey/",
-        "img": "https://www.tampermonkey.net/images/ape.svg",
+        "img": "/icons/tampermonkey-logo.svg",
         "description": "浏览器用户脚本扩展"
       },
       {
@@ -42,13 +42,13 @@
       {
         "title": "Nginx Proxy Manager",
         "site": "https://nginxproxymanager.com/",
-        "img": "https://nginxproxymanager.com/icon.png",
+        "img": "/icons/nginxproxymanager-logo.png",
         "description": "Nginx可视化管理平台，免费SSL"
       },
       {
         "title": "Let's Encrypt",
         "site": "https://letsencrypt.org/zh-cn/",
-        "img": "https://letsencrypt.org/images/le-logo-twitter-noalpha.png",
+        "img": "/icons/letsencrypt-logo.png",
         "description": "免费的TLS证书颁发机构"
       },
       {
@@ -71,13 +71,13 @@
       {
         "title": "Git",
         "site": "https://git-scm.com/",
-        "img": "https://skillicons.dev/icons?i=git",
+        "img": "/icons/git-logo.svg",
         "description": "免费、开源分布式版本控制工具"
       },
       {
         "title": "Sourcetree",
         "site": "https://www.sourcetreeapp.com/",
-        "img": "https://api.iconify.design/logos:sourcetree.svg",
+        "img": "/icons/sourcetree-logo.svg",
         "description": "简单、强大、漂亮的Git GUI软件"
       },
       {
@@ -95,13 +95,13 @@
       {
         "title": "Snipaste",
         "site": "https://www.snipaste.com/",
-        "img": "https://www.snipaste.com/img/logo.svg",
+        "img": "/icons/snipaste-logo.svg",
         "description": "📌贴图，截图神器"
       },
       {
         "title": "Postman",
         "site": "https://www.postman.com/",
-        "img": "https://skillicons.dev/icons?i=postman",
+        "img": "/icons/postman-logo.svg",
         "description": "发送HTTP请求的测试工具"
       }
     ]
@@ -113,19 +113,19 @@
       {
         "title": "IntelliJ IDEA",
         "site": "https://www.jetbrains.com/zh-cn/idea/",
-        "img": "https://resources.jetbrains.com/storage/logos/web/intellij-idea/intellij-idea.svg",
+        "img": "/icons/intellij-idea-logo.svg",
         "description": "软件开发者的首选IDE"
       },
       {
         "title": "Visual Studio Code",
         "site": "https://code.visualstudio.com/",
-        "img": "https://skillicons.dev/icons?i=vscode&theme=light",
+        "img": "/icons/vscode-logo.svg",
         "description": "轻量级代码编辑器"
       },
       {
         "title": "Docker",
         "site": "https://www.docker.com/",
-        "img": "https://skillicons.dev/icons?i=docker",
+        "img": "/icons/docker-logo.svg",
         "description": "开源的应用容器引擎"
       },
       {
@@ -137,7 +137,7 @@
       {
         "title": "RedisInsight",
         "site": "https://redis.com/redis-enterprise/redis-insight/",
-        "img": "https://skillicons.dev/icons?i=redis&theme=light",
+        "img": "/icons/redis-logo.svg",
         "description": "Redis官方可视化工具"
       },
       {
@@ -167,13 +167,13 @@
       {
         "title": "ChatGPT Site",
         "site": "https://github.com/xx025/carrot",
-        "img": "https://skillicons.dev/icons?i=github&theme=light",
+        "img": "/icons/github-logo.svg",
         "description": "免费ChatGPT镜像站点清单"
       },
       {
         "title": "Awesome-Selfhosted",
         "site": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-        "img": "https://skillicons.dev/icons?i=github&theme=light",
+        "img": "/icons/github-logo.svg",
         "description": "自托管软件服务和应用程序清单"
       },
       {
@@ -191,7 +191,7 @@
       {
         "title": "Skill Icons",
         "site": "https://skillicons.dev/",
-        "img": "https://skillicons.dev/favicon.png",
+        "img": "/icons/skillicons-logo.png",
         "description": "在线矢量图标库"
       }
     ]
@@ -209,19 +209,19 @@
       {
         "title": "有道翻译",
         "site": "https://fanyi.youdao.com/index.html#/",
-        "img": "https://ydlunacommon-cdn.nosdn.127.net/322e3486ea5a517c2cba3b76864dadba.png",
+        "img": "/icons/youdao-logo.png",
         "description": "在线及时翻译，支持划词、取词"
       },
       {
         "title": "搜狗输入法",
         "site": "https://shurufa.sogou.com/",
-        "img": "https://bizaladdin-image.baidu.com/0/pic/-1229916602_-1825718461_-444381518.jpg",
+        "img": "/icons/sogou-logo.jpg",
         "description": "享受输入，从搜狗开始"
       },
       {
         "title": "MobaXterm",
         "site": "https://mobaxterm.mobatek.net/",
-        "img": "https://mobaxterm.mobatek.net/img/moba/xterm_logo.png",
+        "img": "/icons/mobaxterm_logo.png",
         "description": "远程终端登录利器"
       },
       {
@@ -269,37 +269,37 @@
       {
         "title": "Maven repository",
         "site": "https://mvnrepository.com/",
-        "img": "https://skillicons.dev/icons?i=maven",
+        "img": "/icons/maven-logo.svg",
         "description": "Maven中央仓库官网"
       },
       {
         "title": "Dockerhub",
         "site": "https://registry.hub.docker.com/",
-        "img": "https://skillicons.dev/icons?i=docker",
+        "img": "/icons/docker-logo.svg",
         "description": "Docker镜像公共仓库官网"
       },
       {
         "title": "Process On",
         "site": "https://www.processon.com/",
-        "img": "https://www.processon.com/public_login/logo_small.fc502117.svg",
+        "img": "/icons/processon-logo.svg",
         "description": "在线流程图、思维导图"
       },
       {
         "title": "Coolors",
         "site": "https://coolors.co/",
-        "img": "https://coolors.co/assets/img/logo.svg",
+        "img": "/icons/coolors-logo.svg",
         "description": "在线配色方案神器"
       },
       {
         "title": "Pop!_OS",
         "site": "https://pop.system76.com/",
-        "img": "https://pop.system76.com/icon-512.png",
+        "img": "/icons/popos-logo.png",
         "description": "轻量级Linux桌面操作系统"
       },
       {
         "title": "Online ps",
         "site": "https://paint.sumo.app/",
-        "img": "https://skillicons.dev/icons?i=ps",
+        "img": "/icons/ps-logo.svg",
         "description": "在线PS软件"
       },
       {
@@ -311,7 +311,7 @@
       {
         "title": "Emoji表情大全",
         "site": "https://www.emojiall.com/",
-        "img": "https://www.emojiall.com/logo.png",
+        "img": "/icons/emojiall-logo.png",
         "description": "Emoji表情、复制、排行"
       }
     ]
@@ -352,13 +352,13 @@
       {
         "title": "similarweb",
         "site": "https://www.similarweb.com/zh/",
-        "img": "https://qualified-production.s3.us-east-1.amazonaws.com/uploads/dfd8597dc5d21b2b8ff2854aab9914b1f2ca9aa69e38d19e4895f7989b6ad3dd.png",
+        "img": "/icons/similarweb-logo.png",
         "description": "网站流量分析和竞争对情报搜索"
       },
       {
         "title": "智能电视网",
         "site": "https://www.znds.com/",
-        "img": "https://webpic.dangbei.net/data/znds/logo_ft.png",
+        "img": "/icons/znds-logo.png",
         "description": "机顶盒固件、玩机教程"
       }
     ]
