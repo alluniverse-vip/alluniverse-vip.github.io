@@ -29,7 +29,7 @@
       },
       {
         "title": "Tampermonkey",
-        "site": "https://www.tampermonkey.net/",
+        "site": "https://docs.alluniverse.vip/docs/tampermonkey/",
         "img": "https://www.tampermonkey.net/images/ape.svg",
         "description": "浏览器用户脚本扩展"
       },
@@ -64,7 +64,7 @@
     "modules": [
       {
         "title": "Chrome",
-        "site": "https://www.google.cn/chrome/index.html",
+        "site": "https://docs.alluniverse.vip/docs/chrome/",
         "img": "/icons/chrome-logo.svg",
         "description": "快速、安全、免费的网络浏览器"
       },
