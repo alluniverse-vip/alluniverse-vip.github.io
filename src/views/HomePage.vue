@@ -143,7 +143,7 @@ const openGit = () => {
 
 .box-card {
   padding: 15px;
-  width: 210px;
+  width: 90%;
   height: 100px;
   background: #ffffff;
   border-radius: 10px;
