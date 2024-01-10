@@ -4,7 +4,7 @@
       class="nav-menu"
       mode="horizontal"
       :ellipsis="true"
-      background-color="#2c698d"
+      background-color="#2b706c"
       text-color="#ffffff"
       @select="handleSelect"
     >
@@ -14,9 +14,7 @@
       <el-menu-item v-for="(item, index) in menuList" :index="item.herf" :key="index" @click="handleAnchor(item.herf)"
         >{{ item.title }}
       </el-menu-item>
-      <div @click="openGit" class="flex flex-items-center cursor-pointer pr-8px">
-        <img src="/icons/github.svg" />
-      </div>
+      <img class="w-24px h-24px cursor-pointer ml-10px mr-20px my-auto" @click="openGit" src="/icons/github.svg" />
     </el-menu>
     <div class="nav-body">
       <div v-for="(item, index) in navData" :key="index">
@@ -88,7 +86,7 @@ const openGit = () => {
       width: 140px;
       flex: 0 0 140px;
       background-repeat: no-repeat;
-      background-image: url("/logo.png");
+      // background-image: url("/logo.png");
       background-position: 20px center;
     }
   }
