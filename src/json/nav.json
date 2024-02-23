@@ -157,6 +157,12 @@
         "site": "https://arthas.aliyun.com/doc/",
         "img": "/icons/arthas-logo.png",
         "description": "Java线上诊断利器，无需 JVM 重启"
+      },
+      {
+        "title": "FastThread",
+        "site": "https://fastthread.io/",
+        "img": "/icons/fastthread-logo.png",
+        "description": "Web在线thread dump分析工具"
       }
     ]
   },
