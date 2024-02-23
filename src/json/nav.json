@@ -50,12 +50,6 @@
         "site": "https://letsencrypt.org/zh-cn/",
         "img": "/icons/letsencrypt-logo.png",
         "description": "免费的TLS证书颁发机构"
-      },
-      {
-        "title": "Open图谱可视化",
-        "site": "https://alluniverse.vip/",
-        "img": "/favicon.svg",
-        "description": "热门小说、电影、动漫知识图谱"
       }
     ]
   },
@@ -97,6 +91,12 @@
         "site": "https://www.snipaste.com/",
         "img": "/icons/snipaste-logo.svg",
         "description": "📌贴图，截图神器"
+      },
+      {
+        "title": "IDM",
+        "site": "https://www.internetdownloadmanager.com/",
+        "img": "/icons/idm-logo.png",
+        "description": "网络下载神器，多线程下载，下载速度提高5倍"
       },
       {
         "title": "Postman",
@@ -223,24 +223,6 @@
         "site": "https://mobaxterm.mobatek.net/",
         "img": "/icons/mobaxterm_logo.png",
         "description": "远程终端登录利器"
-      },
-      {
-        "title": "IDM",
-        "site": "https://www.internetdownloadmanager.com/",
-        "img": "/icons/idm-logo.png",
-        "description": "网络下载神器，多线程下载，下载速度提高5倍"
-      },
-      {
-        "title": "JookDB",
-        "site": "https://jookdb.cn/",
-        "img": "/icons/jookdb-logo.png",
-        "description": "免费多平台数据库管理工具"
-      },
-      {
-        "title": "Speedtest",
-        "site": "https://www.speedtest.net/",
-        "img": "/icons/speedtest-logo.svg",
-        "description": "网速测试"
       }
     ]
   },
@@ -317,6 +299,29 @@
     ]
   },
   {
+    "title": "网络工具",
+    "modules": [
+      {
+        "title": "Speedtest",
+        "site": "https://www.speedtest.net/",
+        "img": "/icons/speedtest-logo.svg",
+        "description": "网速测试"
+      },
+      {
+        "title": "DNS Checker",
+        "site": "https://dnschecker.org/",
+        "img": "/icons/dnschecker-logo.png",
+        "description": "查询域名解析信息"
+      },
+      {
+        "title": "Check-Host",
+        "site": "https://check-host.net/",
+        "img": "/icons/check-host-logo.png",
+        "description": "在线网站域名检查工具"
+      }
+    ]
+  },
+  {
     "title": "多元资源",
     "modules": [
       {
@@ -360,24 +365,6 @@
         "site": "https://www.znds.com/",
         "img": "/icons/znds-logo.png",
         "description": "机顶盒固件、玩机教程"
-      }
-    ]
-  },
-  {
-    "title": "友情链接",
-    "id": "friend",
-    "modules": [
-      {
-        "title": "Open图谱可视化",
-        "site": "https://alluniverse.vip/",
-        "img": "/favicon.svg",
-        "description": "热门小说、电影、动漫知识图谱"
-      },
-      {
-        "title": "Jitsi Meet",
-        "site": "https://meet.alluniverse.vip/",
-        "img": "/icons/jitsi-meet-logo.webp",
-        "description": "免登录在线视频会议"
       }
     ]
   }
