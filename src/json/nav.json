@@ -173,13 +173,13 @@
       {
         "title": "ChatGPT Site",
         "site": "https://github.com/xx025/carrot",
-        "img": "/icons/github-logo.svg",
+        "img": "/icons/chatgpt-logo.png",
         "description": "免费ChatGPT镜像站点清单"
       },
       {
         "title": "Awesome-Selfhosted",
         "site": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-        "img": "/icons/github-logo.svg",
+        "img": "/icons/awesome-selfhosted-logo.svg",
         "description": "自托管软件服务和应用程序清单"
       },
       {
@@ -199,6 +199,12 @@
         "site": "https://skillicons.dev/",
         "img": "/icons/skillicons-logo.png",
         "description": "在线矢量图标库"
+      },
+      {
+        "title": "ttyd",
+        "site": "https://github.com/tsl0922/ttyd",
+        "img": "/icons/ttyd-logo.svg",
+        "description": "Web共享终端"
       }
     ]
   },
@@ -301,6 +307,12 @@
         "site": "https://www.emojiall.com/",
         "img": "/icons/emojiall-logo.png",
         "description": "Emoji表情、复制、排行"
+      },
+      {
+        "title": "remove bg",
+        "site": "https://www.remove.bg/zh",
+        "img": "/icons/remove-bg-logo.svg",
+        "description": "在线图片自动消除背景"
       }
     ]
   },
