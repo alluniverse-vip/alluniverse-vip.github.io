@@ -1,17 +1,15 @@
-export default {
-  async fetch(request, env) {
-    console.log(request)
-    console.log(env)
-    const url = new URL(request.url);
-    if (url.pathname.startsWith('/api/')) {
-      // TODO: Add your custom /api/* logic here.
-      const data = {
-        hello: "world",
-      };
-      return Response.json(data);
-    }
-    // Otherwise, serve the static assets.
-    // Without this, the Worker will error and no assets will be served.
-    return env.ASSETS.fetch(request);
-  },
-}
+import { Hono } from "hono";
+// import { serveStatic } from 'hono/cloudflare-pages'
+
+const app = new Hono();
+
+app.get('/hello', (c) => {
+  return c.json({
+    message: `Hello`,
+    author: '墨渐生微',
+    date: new Date().toLocaleString()
+  })
+})
+
+app.get("*", (ctx) => ctx.env.ASSETS.fetch(ctx.req.raw));
+export default app;
