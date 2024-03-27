@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import { serveStatic } from 'hono/cloudflare-pages'
+// import { serveStatic } from 'hono/cloudflare-pages'
 
 const app = new Hono();
 
@@ -11,6 +11,6 @@ app.get('/hello', (c) => {
   })
 })
 
-// app.get("*", (ctx) => ctx.env.ASSETS.fetch(ctx.req.raw));
-app.get("*", async (ctx, next) => await serveStatic(ctx, next));
+app.get("*", (ctx) => ctx.env.ASSETS.fetch(ctx.req.raw));
+// app.get("*", async (ctx, next) => await serveStatic(ctx, next));
 export default app;
