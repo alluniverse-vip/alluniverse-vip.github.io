@@ -12,5 +12,5 @@ app.get('/hello', (c) => {
 })
 
 // app.get("*", (ctx) => ctx.env.ASSETS.fetch(ctx.req.raw));
-app.get("*", serveStatic);
+app.get("*", (ctx) => serveStatic(ctx));
 export default app;
