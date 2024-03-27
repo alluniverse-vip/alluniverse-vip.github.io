@@ -98,18 +98,21 @@ const openGit = () => {
 
       >span:nth-child(1) {
         color: #e76f51;
+        font-size: 40px;
         animation-delay: 0.2s;
         transform: rotate(30deg);
       }
 
       >span:nth-child(2) {
         color: #e9c46a;
+        font-size: 34px;
         animation-delay: 0.4s;
         transform: rotate(-15deg);
       }
 
       >span:nth-child(3) {
         color: #264653;
+        font-size: 38px;
         animation-delay: 0.6s;
         transform: rotate(10deg);
       }
