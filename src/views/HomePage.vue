@@ -1,18 +1,15 @@
 <template>
   <div class="nav">
-    <el-menu
-      class="nav-menu"
-      mode="horizontal"
-      :ellipsis="true"
-      background-color="#2b706c"
-      text-color="#ffffff"
-      @select="handleSelect"
-    >
-      <!-- <div class="text-white nav-menu-logo">探路者</div> -->
-      <div class="nav-menu-logo"></div>
+    <el-menu class="nav-menu" mode="horizontal" :ellipsis="true" background-color="#2b706c" text-color="#ffffff"
+      @select="handleSelect">
+      <div class="nav-menu-logo">
+        <span>探</span>
+        <span>路</span>
+        <span>者</span>
+      </div>
       <div class="nav-grow" />
-      <el-menu-item v-for="(item, index) in menuList" :index="item.herf" :key="index" @click="handleAnchor(item.herf)"
-        >{{ item.title }}
+      <el-menu-item v-for="(item, index) in menuList" :index="item.herf" :key="index"
+        @click="handleAnchor(item.herf)">{{ item.title }}
       </el-menu-item>
       <img class="w-24px h-24px cursor-pointer ml-10px mr-20px my-auto" @click="openGit" src="/icons/github.svg" />
     </el-menu>
@@ -82,12 +79,40 @@ const openGit = () => {
     height: 65px;
 
     &-logo {
+      flex: 0 0 150px;
       height: 100%;
-      width: 140px;
-      flex: 0 0 140px;
-      background-repeat: no-repeat;
-      // background-image: url("/logo.png");
-      background-position: 20px center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 10px;
+
+      >span {
+        font-size: 36px;
+        font-weight: bold;
+        animation: jumpIn 1s ease;
+
+        &+span {
+          margin-left: 10px;
+        }
+      }
+
+      >span:nth-child(1) {
+        color: #e76f51;
+        animation-delay: 0.2s;
+        transform: rotate(30deg);
+      }
+
+      >span:nth-child(2) {
+        color: #e9c46a;
+        animation-delay: 0.4s;
+        transform: rotate(-15deg);
+      }
+
+      >span:nth-child(3) {
+        color: #264653;
+        animation-delay: 0.6s;
+        transform: rotate(10deg);
+      }
     }
   }
 
@@ -145,13 +170,32 @@ const openGit = () => {
   height: 100px;
   background: #ffffff;
   border-radius: 10px;
+
   &:hover {
     box-shadow: 4px 4px 10px 2px #2c698d;
     cursor: pointer;
+
     .nav-list-left-title {
       // color: #272643;
       text-decoration: underline;
     }
+  }
+}
+
+@keyframes jumpIn {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg) translateX(-100px) translateY(0);
+  }
+
+  50% {
+    opacity: 0.8;
+    transform: rotate(180deg) translateX(50px) translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(360deg) translateX(0) translateY(0);
   }
 }
 </style>
