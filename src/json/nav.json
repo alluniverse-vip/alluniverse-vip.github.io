@@ -273,6 +273,12 @@
         "description": "Docker镜像公共仓库官网"
       },
       {
+        "title": "pkgs.org",
+        "site": "https://pkgs.org/",
+        "img": "/icons/pkgs-logo.svg",
+        "description": "Linux and Unix发行版的软件包仓库"
+      },
+      {
         "title": "Process On",
         "site": "https://www.processon.com/",
         "img": "/icons/processon-logo.svg",
