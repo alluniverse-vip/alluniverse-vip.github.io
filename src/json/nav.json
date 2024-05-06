@@ -342,6 +342,47 @@
         "site": "https://check-host.net/",
         "img": "/icons/check-host-logo.png",
         "description": "在线网站域名检查工具"
+      },
+      {
+        "title": "IP.GS",
+        "site": "https://ip.gs/",
+        "img": "/icons/ipgs-logo.png",
+        "description": "在线查询 IP 服务"
+      },
+      {
+        "title": "ipdata",
+        "site": "https://ipdata.co/",
+        "img": "/icons/ipdata-logo.ico",
+        "description": "IP 地理定位和威胁情报"
+      },
+      {
+        "title": "FOFA",
+        "site": "https://fofa.info/",
+        "img": "/icons/fofa-logo.ico",
+        "description": "网络空间搜索引擎"
+      },
+      {
+        "title": "ZoomEye",
+        "site": "https://www.zoomeye.org/",
+        "img": "/icons/zoomeye-logo.ico",
+        "description": "网络空间测绘搜索"
+      }
+    ]
+  },
+  {
+    "title": "macOS",
+    "modules": [
+      {
+        "title": "Homebrew",
+        "site": "https://brew.sh/",
+        "img": "/icons/homebrew-logo.svg",
+        "description": "macOS包管理器"
+      },
+      {
+        "title": "OrbStack",
+        "site": "https://orbstack.dev/",
+        "img": "/icons/orbstack-logo.png",
+        "description": "Docker和Linux的超轻量工具"
       }
     ]
   },
@@ -359,6 +400,18 @@
         "site": "https://youtube4kdownloader.com/zh99/",
         "img": "/icons/4kdownloader-logo.png",
         "description": "在线视频下载，支持YouTube、Tiktok等"
+      },
+      {
+        "title": "webtor",
+        "site": "https://webtor.io",
+        "img": "/icons/webtor-logo.png",
+        "description": "在线 torrent 网络播放器和下载器"
+      },
+      {
+        "title": "HelloWindows",
+        "site": "https://hellowindows.cn/",
+        "img": "/icons/hellowindows-logo.png",
+        "description": "Windows系统下载存储站"
       },
       {
         "title": "Stuvus Meet",
