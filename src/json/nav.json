@@ -370,7 +370,7 @@
     ]
   },
   {
-    "title": "macOS",
+    "title": "应用推荐",
     "modules": [
       {
         "title": "Homebrew",
@@ -382,7 +382,19 @@
         "title": "OrbStack",
         "site": "https://orbstack.dev/",
         "img": "/icons/orbstack-logo.png",
-        "description": "Docker和Linux的超轻量工具"
+        "description": "macOS的Docker和Linux的超轻量工具"
+      },
+      {
+        "title": "Termux",
+        "site": "https://termux.dev/",
+        "img": "/icons/termux-logo.ico",
+        "description": "Android 终端模拟器和 Linux 环境应用程序"
+      },
+      {
+        "title": "iSH",
+        "site": "https://ish.app/",
+        "img": "/icons/ish-logo.png",
+        "description": "适用于 iOS 的 Linux shell"
       }
     ]
   },
