@@ -356,6 +356,12 @@
         "description": "IP 地理定位和威胁情报"
       },
       {
+        "title": "reallyfreegeoip",
+        "site": "https://reallyfreegeoip.org/bulk",
+        "img": "/icons/reallyfreegeoip-logo.png",
+        "description": "批量IP 地理位置查找"
+      },
+      {
         "title": "FOFA",
         "site": "https://fofa.info/",
         "img": "/icons/fofa-logo.png",
