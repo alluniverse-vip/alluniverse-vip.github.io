@@ -4,19 +4,9 @@ import { serveStatic } from 'hono/cloudflare-pages'
 const app = new Hono();
 
 // CloudflareSpeedTest
-app.get('/test1', async (c) => {
-  const fetchUrl = 'https://testfileorg.netwet.net/500MB-CZIPtestfile.org.zip'
-  const response = await fetch(fetchUrl)
-  return response;
-})
-
-addEventListener("fetch", event => {
-  let url = new URL(event.request.url);
-  if (url.pathname == "/test" && url.search == "") {
-    url.href="https://testfileorg.netwet.net/500MB-CZIPtestfile.org.zip"
-    let request = new Request(url, event.request);
-    event.respondWith(fetch(request));
-  }
+app.get('/test', (c) => {
+  const url = 'https://testfileorg.netwet.net/500MB-CZIPtestfile.org.zip'
+  return fetch(new Request(url, c.req));
 })
 
 // author
