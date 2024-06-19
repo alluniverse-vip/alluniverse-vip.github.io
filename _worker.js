@@ -7,8 +7,8 @@ const app = new Hono();
 app.get('/test', (c) => {
   const url = 'https://testfileorg.netwet.net/500MB-CZIPtestfile.org.zip'
   return fetch(new Request(url, {
-    method: c.req.method(),
-    headers: c.req.header(),
+    method: c.req.method,
+    headers: c.req.header,
   }));
 })
 
