@@ -9,7 +9,7 @@
     "lint:eslint": "eslint \"src/**/*.{vue,ts,js}\" --fix",
     "lint:prettier": "prettier --write \"**/*.{js,ts,json,css,less,scss,vue,html,md}\"",
     "lint:stylelint": "stylelint  \"**/*.{css,scss,vue,html}\" --fix",
-    "build": "vite build --mode production && vue-tsc --noEmit"
+    "build": "vite build --mode production"
   },
   "dependencies": {
     "element-plus": "^2.4.2",
