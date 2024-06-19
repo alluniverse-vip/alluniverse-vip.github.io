@@ -5,8 +5,7 @@ export default {
     // CloudflareSpeedTest
     if (url.pathname == "/test" && url.search == "") {
       url.href = "https://testfileorg.netwet.net/500MB-CZIPtestfile.org.zip"
-      let request = new Request(url, request);
-      return fetch(request);
+      return fetch(new Request(url, request));
     }
 
     // author
