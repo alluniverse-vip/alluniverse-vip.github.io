@@ -1,26 +1,24 @@
-import { Hono } from "hono";
-import { serveStatic } from 'hono/cloudflare-pages'
+export default {
+  async fetch(request, env, ctx) {
+    const url = new URL(request.url);
 
-const app = new Hono();
+    // CloudflareSpeedTest
+    if (url.pathname == "/test" && url.search == "") {
+      url.href = "https://testfileorg.netwet.net/500MB-CZIPtestfile.org.zip"
+      let request = new Request(url, request);
+      return fetch(request);
+    }
 
-// CloudflareSpeedTest
-app.get('/test', async (c) => {
-  const url = 'https://testfileorg.netwet.net/500MB-CZIPtestfile.org.zip'
-  return await fetch(new Request(url, {
-    method: c.req.method,
-    headers: c.req.header,
-  }));
-})
+    // author
+    if (url.pathname == "/hello") {
+      return Response.json({
+        message: `Hello`,
+        author: '墨渐生微',
+        date: new Date().toLocaleString()
+      });
+    }
 
-// author
-app.get('/hello', (c) => {
-  return c.json({
-    message: `Hello`,
-    author: '墨渐生微',
-    date: new Date().toLocaleString()
-  })
-})
-
-// app.get("*", (ctx) => ctx.env.ASSETS.fetch(ctx.req.raw));
-app.get("*", (ctx, next) => serveStatic()(ctx, next));
-export default app;
+    // Otherwise, serve the static assets.
+    return env.ASSETS.fetch(request);
+  },
+}
