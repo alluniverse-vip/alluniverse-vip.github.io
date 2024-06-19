@@ -2,13 +2,13 @@
   <div class="nav">
     <el-menu class="nav-menu" mode="horizontal" :ellipsis="true" background-color="#2b706c" text-color="#ffffff"
       @select="handleSelect">
-      <div class="nav-menu-logo">
+      <el-menu-item index="0" class="nav-menu-logo">
         <span>探</span>
         <span>路</span>
         <span>者</span>
-      </div>
+      </el-menu-item>
       <div class="nav-grow" />
-      <el-menu-item v-for="(item, index) in menuList" :index="item.herf" :key="index"
+      <el-menu-item v-for="(item, index) in menuList" :index="String(index)" :key="index"
         @click="handleAnchor(item.herf)">{{ item.title }}
       </el-menu-item>
       <img class="w-24px h-24px cursor-pointer ml-10px mr-20px my-auto" @click="openGit" src="/icons/github.svg" />
@@ -120,7 +120,8 @@ const openGit = () => {
   }
 
   &-grow {
-    margin-right: auto;
+    // margin-right: auto;
+    flex-grow: 1;
   }
 
   &-body {
