@@ -6,7 +6,10 @@ const app = new Hono();
 // CloudflareSpeedTest
 app.get('/test', (c) => {
   const url = 'https://testfileorg.netwet.net/500MB-CZIPtestfile.org.zip'
-  return fetch(new Request(url, c.req));
+  return fetch(new Request(url, {
+    method: c.req.method(),
+    headers: c.req.header(),
+  }));
 })
 
 // author
