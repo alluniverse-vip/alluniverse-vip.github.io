@@ -6,7 +6,7 @@
 <script setup lang="ts">
 const props = defineProps({
   data: {
-    type: Array,
+    type: Array<any>,
     default: function () {
       return [];
     },
