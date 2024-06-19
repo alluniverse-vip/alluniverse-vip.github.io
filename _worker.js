@@ -4,9 +4,9 @@ import { serveStatic } from 'hono/cloudflare-pages'
 const app = new Hono();
 
 // CloudflareSpeedTest
-app.get('/test', (c) => {
+app.get('/test', async (c) => {
   const url = 'https://testfileorg.netwet.net/500MB-CZIPtestfile.org.zip'
-  return fetch(new Request(url, {
+  return await fetch(new Request(url, {
     method: c.req.method,
     headers: c.req.header,
   }));
