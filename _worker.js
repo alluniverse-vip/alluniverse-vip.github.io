@@ -4,8 +4,7 @@ export default {
 
     // CloudflareSpeedTest
     if (url.pathname == "/test" && url.search == "") {
-      // url.href = "https://testfileorg.netwet.net/500MB-CZIPtestfile.org.zip"
-			url.href = "http://ipv4.download.thinkbroadband.com/512MB.zip"
+      url.href = "http://ipv4.download.thinkbroadband.com/512MB.zip"
       return fetch(new Request(url, request));
     }
 
