@@ -219,6 +219,18 @@
         "description": "远程控制软件，可远程控制手机，远程桌面连接，远程开机"
       },
       {
+        "title": "Proxifier",
+        "site": "https://www.proxifier.com/",
+        "img": "/icons/proxifier-logo.svg",
+        "description": "代理客户端，支持SOCKS、HTTPS"
+      },
+      {
+        "title": "MobaXterm",
+        "site": "https://mobaxterm.mobatek.net/",
+        "img": "/icons/mobaxterm_logo.png",
+        "description": "远程终端登录利器"
+      },
+      {
         "title": "有道翻译",
         "site": "https://fanyi.youdao.com/index.html#/",
         "img": "/icons/youdao-logo.png",
@@ -229,12 +241,6 @@
         "site": "https://shurufa.sogou.com/",
         "img": "/icons/sogou-logo.jpg",
         "description": "享受输入，从搜狗开始"
-      },
-      {
-        "title": "MobaXterm",
-        "site": "https://mobaxterm.mobatek.net/",
-        "img": "/icons/mobaxterm_logo.png",
-        "description": "远程终端登录利器"
       }
     ]
   },
