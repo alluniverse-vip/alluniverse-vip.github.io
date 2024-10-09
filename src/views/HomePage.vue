@@ -18,16 +18,14 @@
         <div class="nav-list-title" :id="item.id">{{ item.title }}</div>
         <GridCard :data="item.modules" :minWidth="210">
           <template #default="{ row }">
-            <a :href="row.site" target="_blank">
-              <div class="box-card">
-                <div class="nav-list-left flex flex-items-center">
-                  <div>
-                    <img :src="row.img" class="nav-list-left-img" />
-                  </div>
-                  <div class="font-bold nav-list-left-title">{{ row.title }}</div>
+            <a :href="row.site" target="_blank" class="box-card">
+              <div class="nav-list-left flex flex-items-center">
+                <div>
+                  <img :src="row.img" class="nav-list-left-img" />
                 </div>
-                <div class="nav-list-content" :title="row.description">{{ row.description }}</div>
+                <div class="font-bold nav-list-left-title">{{ row.title }}</div>
               </div>
+              <div class="nav-list-content" :title="row.description">{{ row.description }}</div>
             </a>
           </template>
         </GridCard>
@@ -164,11 +162,13 @@ const openGit = () => {
 }
 
 .box-card {
+  display: block;
   padding: 15px;
   width: 90%;
   height: 100px;
   background: #ffffff;
   border-radius: 10px;
+  text-decoration: none;
 
   &:hover {
     box-shadow: 4px 4px 10px 2px #2c698d;
