@@ -18,15 +18,17 @@
         <div class="nav-list-title" :id="item.id">{{ item.title }}</div>
         <GridCard :data="item.modules" :minWidth="210">
           <template #default="{ row }">
-            <div class="box-card" @click="openSite(row.site)">
-              <div class="nav-list-left flex flex-items-center">
-                <div>
-                  <img :src="row.img" class="nav-list-left-img" />
+            <a :href="row.site" target="_blank">
+              <div class="box-card">
+                <div class="nav-list-left flex flex-items-center">
+                  <div>
+                    <img :src="row.img" class="nav-list-left-img" />
+                  </div>
+                  <div class="font-bold nav-list-left-title">{{ row.title }}</div>
                 </div>
-                <div class="font-bold nav-list-left-title">{{ row.title }}</div>
+                <div class="nav-list-content" :title="row.description">{{ row.description }}</div>
               </div>
-              <div class="nav-list-content" :title="row.description">{{ row.description }}</div>
-            </div>
+            </a>
           </template>
         </GridCard>
       </div>
@@ -49,13 +51,6 @@ const menuList = computed(() => {
 
 const handleSelect = (key: string, keyPath: string[]) => {
   console.log(key, keyPath);
-};
-
-const openSite = (site: string) => {
-  if (!site || site == "#") {
-    return;
-  }
-  window.open(site);
 };
 
 const handleAnchor = (id: string) => {
