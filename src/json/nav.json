@@ -397,6 +397,12 @@
         "description": "macOS的Docker和Linux的超轻量工具"
       },
       {
+        "title": "Murus",
+        "site": "https://www.murusfirewall.com/murus/",
+        "img": "/icons/murus-logo.png",
+        "description": "macOS网络防火墙，PF（数据包过滤器）的视图"
+      },
+      {
         "title": "Termux",
         "site": "https://termux.dev/",
         "img": "/icons/termux-logo.ico",
