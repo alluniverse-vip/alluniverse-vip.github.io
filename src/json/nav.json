@@ -22,12 +22,6 @@
         "description": "超级在线工具集合"
       },
       {
-        "title": "dev-sidecar",
-        "site": "https://gitee.com/shun_dev/dev-sidecar",
-        "img": "/icons/gitee-logo.svg",
-        "description": "GitHub、StackOverflow、npm加速"
-      },
-      {
         "title": "Tampermonkey",
         "site": "https://docs.alluniverse.vip/docs/tampermonkey/",
         "img": "/icons/tampermonkey-logo.svg",
@@ -81,22 +75,10 @@
         "description": "基于文件名快速检索定位工具"
       },
       {
-        "title": "Geek Uninstaller",
-        "site": "https://geekuninstaller.com/",
-        "img": "/icons/geek-logo.png",
-        "description": "软件卸载工具"
-      },
-      {
         "title": "Snipaste",
         "site": "https://www.snipaste.com/",
         "img": "/icons/snipaste-logo.svg",
         "description": "📌贴图，截图神器"
-      },
-      {
-        "title": "IDM",
-        "site": "https://www.internetdownloadmanager.com/",
-        "img": "/icons/idm-logo.png",
-        "description": "网络下载神器，多线程下载，下载速度提高5倍"
       },
       {
         "title": "Postman",
@@ -181,12 +163,6 @@
         "site": "https://github.com/awesome-selfhosted/awesome-selfhosted",
         "img": "/icons/awesome-selfhosted-logo.svg",
         "description": "自托管软件服务和应用程序清单"
-      },
-      {
-        "title": "dev-sidecar",
-        "site": "https://gitee.com/shun_dev/dev-sidecar",
-        "img": "/icons/gitee-logo.svg",
-        "description": "GitHub、StackOverflow、npm加速"
       },
       {
         "title": "dockerfile",
@@ -301,18 +277,6 @@
         "site": "https://coolors.co/",
         "img": "/icons/coolors-logo.svg",
         "description": "在线配色方案神器"
-      },
-      {
-        "title": "Pop!_OS",
-        "site": "https://pop.system76.com/",
-        "img": "/icons/popos-logo.png",
-        "description": "轻量级Linux桌面操作系统"
-      },
-      {
-        "title": "Online ps",
-        "site": "https://paint.sumo.app/",
-        "img": "/icons/ps-logo.svg",
-        "description": "在线PS软件"
       },
       {
         "title": "jsDelivr",
